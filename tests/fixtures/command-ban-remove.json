@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "ban",
+    "parameters": "remove EOS_sanitized",
+    "result": "EOS_sanitized removed from ban list.\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T22:34:36.5384620+00:00"
+  }
+}

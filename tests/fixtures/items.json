@@ -1,0 +1,12 @@
+{
+  "data": [
+    {"name": "terrStone", "localizedName": "Stone", "isBlock": true},
+    {
+      "name": "resourceYuccaFibers",
+      "localizedName": "Yucca Fibers",
+      "isBlock": false,
+      "futureField": "preserved"
+    }
+  ],
+  "meta": {"serverTime": "2026-08-22T14:57:31.5564900+00:00"}
+}

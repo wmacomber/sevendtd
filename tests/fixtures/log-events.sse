@@ -1,0 +1,9 @@
+: KeepAlive
+
+event: logLine
+data: {"id":204,"msg":"sanitized log line","type":"Log","trace":null,"isotime":"2026-08-21T21:39:02.3346510+00:00","uptime":"3935239"}
+
+event: futureEvent
+id: cursor-1
+data: {"future":true}
+

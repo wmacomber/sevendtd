@@ -1,0 +1,9 @@
+{
+  "data": {
+    "enabled": true,
+    "mapBlockSize": 128,
+    "maxZoom": 4,
+    "mapSize": {"x": 6144, "y": 255, "z": 6144}
+  },
+  "meta": {"serverTime": "2026-08-21T21:18:21.5521840+00:00"}
+}

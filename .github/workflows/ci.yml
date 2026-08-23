@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: uv lock --check
+      - run: uv sync --all-extras --dev --locked
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pyright
+      - run: uv run pytest
+
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - run: uv lock --check
+      - run: uv build
+      - run: uv venv --python 3.12 .wheel-smoke
+      - run: uv pip install --python .wheel-smoke/bin/python dist/sevendtd-0.4.0.dev0-py3-none-any.whl
+      - name: Smoke-import core without optional dependencies
+        run: |
+          .wheel-smoke/bin/python - <<'PY'
+          import importlib.util
+
+          import sevendtd
+
+          assert sevendtd.__name__ == "sevendtd"
+          forbidden = ("typer", "rich", "PIL", "fastapi", "sqlalchemy")
+          assert not {name for name in forbidden if importlib.util.find_spec(name) is not None}
+          PY

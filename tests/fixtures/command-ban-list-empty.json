@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "ban",
+    "parameters": "list",
+    "result": "Ban list entries:\n  Banned until - UserID (name) - Reason\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T22:38:00.5226000+00:00"
+  }
+}

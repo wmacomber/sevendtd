@@ -1,0 +1,24 @@
+{
+  "data": {
+    "players": [{
+      "entityId": 171,
+      "name": "sanitized-player",
+      "platformId": {"combinedString": "Steam_sanitized", "platformId": "Steam", "userId": "sanitized"},
+      "crossplatformId": {"combinedString": "EOS_sanitized", "platformId": "EOS", "userId": "sanitized"},
+      "totalPlayTimeSeconds": null,
+      "lastOnline": null,
+      "online": true,
+      "ip": "192.0.2.1",
+      "ping": 8,
+      "position": {"x": 563.46875, "y": 38.09375, "z": -506.71875},
+      "level": 116,
+      "health": 300,
+      "stamina": 250,
+      "score": 1295,
+      "deaths": 21,
+      "kills": {"zombies": 1387, "players": 12},
+      "banned": {"banActive": false, "reason": null, "until": null}
+    }]
+  },
+  "meta": {"serverTime": "2026-08-21T21:29:58.1256990+00:00"}
+}

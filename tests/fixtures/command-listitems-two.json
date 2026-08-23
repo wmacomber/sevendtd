@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "li",
+    "parameters": "resourceWood",
+    "result": "    resourceWoodBundle\n    resourceWood\nListed 2 matching items.\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T17:51:10.0549220+00:00"
+  }
+}

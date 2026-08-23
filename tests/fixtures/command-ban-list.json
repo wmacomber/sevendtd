@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "ban",
+    "parameters": "list",
+    "result": "Ban list entries:\n  Banned until - UserID (name) - Reason\n  2026-08-22 22:32:20 - EOS_sanitized (sanitized-player) - CLI moderation test\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T22:29:23.4817950+00:00"
+  }
+}

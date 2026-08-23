@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "ban",
+    "parameters": "add 171 3 minutes \"CLI moderation test\"",
+    "result": "EOS_sanitized banned until 2026-08-22 22:32:20, reason: CLI moderation test.\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T22:29:20.2317050+00:00"
+  }
+}

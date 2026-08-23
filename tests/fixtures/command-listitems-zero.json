@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "li",
+    "parameters": "resourceTool",
+    "result": "Listed 0 matching items.\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T17:51:14.3558900+00:00"
+  }
+}

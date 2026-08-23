@@ -1,0 +1,12 @@
+{
+  "data": [
+    {"name": "GameType", "type": "string", "value": "7DTD"},
+    {"name": "GameName", "type": "string", "value": "Sanitized Test Server"},
+    {"name": "ServerVersion", "type": "string", "value": "V.3.10.14"},
+    {"name": "CurrentPlayers", "type": "int", "value": 0},
+    {"name": "MaxPlayers", "type": "int", "value": 8},
+    {"name": "WorldSize", "type": "int", "value": 6144},
+    {"name": "IsDedicated", "type": "bool", "value": true}
+  ],
+  "meta": {"serverTime": "2026-08-21T21:12:06.2882390+00:00"}
+}

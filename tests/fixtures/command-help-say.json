@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "help",
+    "parameters": "say",
+    "result": "*** Command(s): say ***\nNo detailed help available.\nDescription: Sends a message to all connected clients\n\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T18:55:53.5574470+00:00"
+  }
+}

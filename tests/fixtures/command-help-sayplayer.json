@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "help",
+    "parameters": "sayplayer",
+    "result": "*** Command(s): sayplayer, pm ***\nUsage:\n   pm <player name / steam id / entity id> <message>\nSend a PM to the player given by the player name or entity id (as given by e.g. \"lpi\").\n\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T18:55:59.7080290+00:00"
+  }
+}

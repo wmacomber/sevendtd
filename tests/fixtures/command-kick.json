@@ -1,0 +1,10 @@
+{
+  "data": {
+    "command": "kick",
+    "parameters": "171 \"CLI moderation test\"",
+    "result": "Kicking Player sanitized-player: CLI moderation test\n"
+  },
+  "meta": {
+    "serverTime": "2026-08-22T22:12:09.1176230+00:00"
+  }
+}

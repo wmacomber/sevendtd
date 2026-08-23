@@ -1,0 +1,40 @@
+{
+  "evidence_identifier": "7dtd-v3.1.0-b14-dashboard-22c85370",
+  "server_version": "V 3.1.0 (b14)",
+  "dashboard_bundle_sha256": "22c85370a43570f19b62f2f6cc24a753bfec6503c0c8c451c4c02d94356b36b1",
+  "dashboard_source_map_sha256": "b5610c71218134c1c884a606596c4fe17794bf23a4700300cd1030d40dee7eb8",
+  "map_config": {
+    "enabled": true,
+    "mapBlockSize": 128,
+    "maxZoom": 4,
+    "mapSize": {"x": 6144, "y": 255, "z": 6144}
+  },
+  "observations": [
+    {"observation_id":"zoom-4","purpose":"zoom scaling","requested_x":563.0625,"requested_z":-506.78125,"observed_x":563.0625,"observed_z":-506.78125,"zoom":4,"observed_coord_a":4,"observed_coord_b":-4,"tile_path":"/map/4/4/-4.png","observed_at":null,"movement_method":"ordinary movement"},
+    {"observation_id":"zoom-3","purpose":"zoom scaling","requested_x":563.0625,"requested_z":-506.78125,"observed_x":563.0625,"observed_z":-506.78125,"zoom":3,"observed_coord_a":2,"observed_coord_b":-2,"tile_path":"/map/3/2/-2.png","observed_at":null,"movement_method":"ordinary movement"},
+    {"observation_id":"zoom-2","purpose":"zoom scaling","requested_x":563.0625,"requested_z":-506.78125,"observed_x":563.0625,"observed_z":-506.78125,"zoom":2,"observed_coord_a":1,"observed_coord_b":-1,"tile_path":"/map/2/1/-1.png","observed_at":null,"movement_method":"ordinary movement"},
+    {"observation_id":"zoom-1","purpose":"zoom scaling","requested_x":563.0625,"requested_z":-506.78125,"observed_x":563.0625,"observed_z":-506.78125,"zoom":1,"observed_coord_a":0,"observed_coord_b":-1,"tile_path":"/map/1/0/-1.png","observed_at":null,"movement_method":"ordinary movement"},
+    {"observation_id":"zoom-0","purpose":"zoom scaling","requested_x":563.0625,"requested_z":-506.78125,"observed_x":563.0625,"observed_z":-506.78125,"zoom":0,"observed_coord_a":0,"observed_coord_b":-1,"tile_path":"/map/0/0/-1.png","observed_at":null,"movement_method":"ordinary movement"},
+    {"observation_id":"axis-1","purpose":"axis and sign","requested_x":64,"requested_z":64,"observed_x":64,"observed_z":64,"zoom":4,"observed_coord_a":0,"observed_coord_b":0,"tile_path":"/map/4/0/0.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"axis-2","purpose":"axis and sign","requested_x":192,"requested_z":64,"observed_x":192,"observed_z":64,"zoom":4,"observed_coord_a":1,"observed_coord_b":0,"tile_path":"/map/4/1/0.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"axis-3","purpose":"axis and sign","requested_x":64,"requested_z":192,"observed_x":64,"observed_z":192,"zoom":4,"observed_coord_a":0,"observed_coord_b":1,"tile_path":"/map/4/0/1.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"axis-4","purpose":"negative quadrant","requested_x":-64,"requested_z":-64,"observed_x":-64,"observed_z":-64,"zoom":4,"observed_coord_a":-1,"observed_coord_b":-1,"tile_path":"/map/4/-1/-1.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"x-negative","purpose":"negative flooring","requested_x":-1,"requested_z":64,"observed_x":-1,"observed_z":64,"zoom":4,"observed_coord_a":-1,"observed_coord_b":0,"tile_path":"/map/4/-1/0.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"x-positive","purpose":"positive side of zero","requested_x":1,"requested_z":64,"observed_x":1,"observed_z":64,"zoom":4,"observed_coord_a":0,"observed_coord_b":0,"tile_path":"/map/4/0/0.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"x-boundary-128","purpose":"exact X boundary","requested_x":128,"requested_z":64,"observed_x":128,"observed_z":64,"zoom":4,"observed_coord_a":1,"observed_coord_b":0,"tile_path":"/map/4/1/0.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"z-negative","purpose":"negative side of zero","requested_x":64,"requested_z":-1,"observed_x":64,"observed_z":-1,"zoom":4,"observed_coord_a":0,"observed_coord_b":-1,"tile_path":"/map/4/0/-1.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"z-boundary-zero","purpose":"exact Z boundary","requested_x":64,"requested_z":0,"observed_x":64,"observed_z":0,"zoom":4,"observed_coord_a":0,"observed_coord_b":-1,"tile_path":"/map/4/0/-1.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"z-positive","purpose":"positive side of zero","requested_x":64,"requested_z":1,"observed_x":64,"observed_z":1,"zoom":4,"observed_coord_a":0,"observed_coord_b":0,"tile_path":"/map/4/0/0.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"holdout-1","purpose":"independent holdout","requested_x":-2501,"requested_z":2401,"observed_x":-2501,"observed_z":2401,"zoom":0,"observed_coord_a":-2,"observed_coord_b":1,"tile_path":"/map/0/-2/1.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"holdout-2","purpose":"independent holdout","requested_x":1501,"requested_z":1301,"observed_x":1501,"observed_z":1301,"zoom":1,"observed_coord_a":1,"observed_coord_b":1,"tile_path":"/map/1/1/1.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"holdout-3","purpose":"independent holdout","requested_x":-731,"requested_z":-914,"observed_x":-731,"observed_z":-914,"zoom":2,"observed_coord_a":-2,"observed_coord_b":-2,"tile_path":"/map/2/-2/-2.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"holdout-4","purpose":"independent holdout","requested_x":334,"requested_z":-777,"observed_x":334,"observed_z":-777,"zoom":3,"observed_coord_a":1,"observed_coord_b":-4,"tile_path":"/map/3/1/-4.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"holdout-5","purpose":"independent holdout","requested_x":-1026,"requested_z":511,"observed_x":-1026,"observed_z":511,"zoom":4,"observed_coord_a":-9,"observed_coord_b":3,"tile_path":"/map/4/-9/3.png","observed_at":null,"movement_method":"teleportplayer"},
+    {"observation_id":"holdout-6","purpose":"independent holdout","requested_x":1900,"requested_z":1150,"observed_x":1900,"observed_z":1150,"zoom":2,"observed_coord_a":3,"observed_coord_b":2,"tile_path":"/map/2/3/2.png","observed_at":null,"movement_method":"teleportplayer"}
+  ],
+  "excluded_observations": [
+    {"observation_id":"x-zero-dom-edge","reason":"Marker sat exactly on a rendered tile edge; DOM hit testing selected the adjacent tile."},
+    {"observation_id":"stale-z-negative","reason":"Dashboard marker had not refreshed and reported the preceding position's tile."},
+    {"observation_id":"stale-holdout-6","reason":"Dashboard marker had not refreshed; page reload produced the accepted holdout."}
+  ]
+}
