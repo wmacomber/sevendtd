@@ -18,7 +18,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-cli = ["typer>=0.12,<1", "rich>=13.8,<16", "pillow>=10.4,<13"]
+cli = ["typer>=0.12,<1", "rich>=13.8,<16", "pillow>=10.4,<14"]
 
 [dependency-groups]
 dev = [
@@ -31,7 +31,7 @@ dev = [
   "ruff>=0.8",
   "typer>=0.12,<1",
   "rich>=13.8,<16",
-  "pillow>=10.4,<13",
+  "pillow>=10.4,<14",
 ]
 
 [project.scripts]
